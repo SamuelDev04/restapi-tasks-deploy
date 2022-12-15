@@ -3,6 +3,7 @@ module.exports = {
         port: 3100
     },
     dbmongo: {
-        uri: "mongodb+srv://lolo:lolo@cluster0.dvmrk5e.mongodb.net/test"
+        uri: "mongodb://mongo:gtMd799pNNtAsCGYtdT6@containers-us-west-156.railway.app:6978"
+
     }
 }
