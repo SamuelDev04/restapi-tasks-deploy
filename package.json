@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "dev": "set NODE_ENV=develop& nodemon app/index.js --exec babel-node",
-    "produc": "set NODE_ENV=production& nodemon app/index.js --exec babel-node",
     "qa": "set NODE_ENV=qa& nodemon app/index.js --exec babel-node",
     "build": "babel app --out-dir dist",
     "start": "set NODE_ENV=production& node dist/index.js"
