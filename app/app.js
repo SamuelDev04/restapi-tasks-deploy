@@ -2,13 +2,13 @@ import express from "express";
 import dotenv from "dotenv";
 import morgan from "morgan";
 import cors from "cors";
-import config from "config";
+import enviroments from "./config/enviroments";
 import TasksRoutes from "./routes/tasks.routes";
 
 const app = express();
 
 // settings
-app.set("PORT", config.get("server.port"));
+app.set("PORT", process.env.PORT);
 
 // middlewares
 app.use(cors());
